@@ -3,20 +3,20 @@
   margin: 0px;
 }
 img{
-  width: 1341px;
+  width: 1347px;
   height: 600px;
 
 
 }
 #contenedor{
-  width: 1341px;
+  width: 1347px;
   margin 30px auto;
   overflow: hidden;
 
 }
 #contenedor ul{
   list-style: none;
-  width: 5364px;
+  width: 5388px;
   display: flex;
 
   animation: slide 20s infinite;
@@ -26,14 +26,14 @@ img{
   0%{margin-left: 0px;}
   20%{margin-left: 0px;}
 
-  25%{margin-left: -1341px;}
-  45%{margin-left: -1341px;}
+  25%{margin-left: -1347px;}
+  45%{margin-left: -1347px;}
 
-  50%{margin-left: -2682px;}
-  70%{margin-left: -2682px;}
+  50%{margin-left: -2694px;}
+  70%{margin-left: -2694px;}
 
-  75%{margin-left: -4023px;}
-  100%{margin-left: -4023px;}
+  75%{margin-left: -4041px;}
+  100%{margin-left: -4041px;}
 
 
 
