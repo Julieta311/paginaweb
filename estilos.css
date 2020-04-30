@@ -8,13 +8,14 @@
 
 header{
 
-	width: 100%;
+	width: 100px;
 }
 
-.navegacion{
-	width: 1000px;
-	margin: 5px auto;
-	background: #fff;
+.navegacion {
+
+	width: 1341px;
+	margin: 0px auto;
+	background: #79BA56;
 }
 
 .navegacion ul{
@@ -28,22 +29,22 @@ header{
 
 .menu > li > a{
 	display: block;
-	padding: 15px 40px;
+	padding: 25px 80px;
 	color: #353535;
 	font-family: 'Open sans';
 	text-decoration: none;
 }
 
 .menu li a:hover{
-	color:red ;
+	color:#CDCDCD ;
 	transition: all .3s;
 }
 
-/* Submenu*/
+
 
 .submenu{
 	position: absolute;
-	background: #333333;
+	background: #79BA56;
 	width: 120%;
 	visibility: hidden;
 	opacity: 0;
@@ -53,7 +54,7 @@ header{
 .submenu li a{
 	display: block;
 	padding: 15px;
-	color: #fff;
+	color: black;
 	font-family: 'Open sans';
 	text-decoration: none;
 }
