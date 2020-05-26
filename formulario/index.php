@@ -7,17 +7,20 @@
   $enlace= mysqli_connect($servidor,$usuario,$clave,$baseDeDatos);
 
   if(!$enlace){
-    echo"error en la conexion con el servidor"
+    echo"error en la conexion con el servidor";
   }
 ?>
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Formulario de registro</title>
+    <title>Formulario</title>
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+    <section class="form-register">
+
+    </section>
   <div class="contenedor">
     <form action="#" class="formulario" id="formulario" name="formulario" method="POST">
       <div class="contenedor-inputs">
@@ -43,7 +46,7 @@
     </div>
 
   </div>
-  <script src="formulario.js"></script>
+  <script src="formulario.html"></script>
   </body>
 </html>
 <?php
